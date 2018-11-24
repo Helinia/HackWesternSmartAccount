@@ -7,27 +7,30 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-    <title>Smart Account</title>
+    <link rel="stylesheet" type="text/css" href="./styles_signup.css">
+    <title>Sign Up</title>
   </head>
 
   <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">
-      <img src="s_logo.png" alt="logo" style="width:75px;">
-    </a>
-    <p class="nav_text_logo">Smart Account</p>
-      <button type="button" class="btn btn-success ml-auto"><a href="./logIn.html">Log In</a></button>
-  </nav>
-  
-  <p class="line-1 anim-typewriter">Welcome to Smart Account.</p>
-  <br><br><br>
-  <div class="text-center">
-  <a href="./sign_up.html" ><button type="button" class="two btn btn-primary btn-lg">Sign Up</button></a>
-  <a href="./LogIn.html"><button type="button" class="two btn btn-primary btn-lg">Log In</button></a>
-  </div> 
-  
+    <div class="container">
+      <h1 class="su_title">Sign Up</h1>
+      <p class="su_title">Just a couple of more steps until you have an account!</p>
+      <hr>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <div class="clearfix">
+        <a href="./index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

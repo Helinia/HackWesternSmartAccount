@@ -1,6 +1,14 @@
 *{
 
 }
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
 nav.navbar{
 	min-width: 100%;
 	overflow: hidden;
