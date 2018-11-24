@@ -1,0 +1,57 @@
+*{
+
+}
+nav.navbar{
+	min-width: 100%;
+	overflow: hidden;
+}
+
+.nav_text_logo{
+	color: white;
+	font-size: 1.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0;
+}
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+
+
+.line-1{
+    position: relative;
+    width: 24em;
+    margin-top:100px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 3em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+button.two{
+	width: 25%;
+}
