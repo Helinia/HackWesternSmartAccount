@@ -48,7 +48,7 @@ def logout(request):
         return redirect('home')
 
 def loggedin(request):
-    return render(request, 'accounts/loggedin.html')
+    return render(request, 'accounts/jump.html')
 
 
 #test: file uploading
